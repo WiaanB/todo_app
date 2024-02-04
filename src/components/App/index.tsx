@@ -1,10 +1,12 @@
 import React from 'react';
 
+import DayList from '@/components/DayList';
+
 const App: React.FC = () => {
 
-  return <div>
-    <h1 className="h1">Hello World</h1>
-  </div>
+  return <>
+    <DayList/>
+  </>
 };
 
 export default App;
